@@ -148,6 +148,6 @@ This project is licensed under the MIT License.
 
 ---
 
-Feel free to reach out if you have questions or feedback. Happy coding!
+Feel free to reach out @hanzalamansuri11@gmail.com, if you have questions or feedback. Happy coding!
 
 ---
