@@ -41,40 +41,47 @@
 ## Installation
 
 ### Prerequisites
-- [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/)
+- [Node.js](https://nodejs.org/)
 - [MongoDB](https://www.mongodb.com/) (or use MongoDB Atlas)
 
 ### Steps
 
 1. **Clone the Repository**
-  - git clone https://github.com/hanzala-mansuri/BookReview-MERN.git
-  - cd BookReview-MERN
+   ```bash
+   git clone https://github.com/hanzala-mansuri/BookReviewMERNstack.git
+   cd BookReviewMERNstack
+   ```
 
 2. **Setup Backend**
-  - cd backend
-  - npm install
-
+   ```bash
+   cd backend
+   npm install
+   ```
    - Create a `.env` file in the backend folder and add the following variables:
-
-   - MONGO_URI=your_mongo_db_connection_string
-    -PORT = 1000
-     
+     ```plaintext
+     URI=your_mongo_db_connection_string (write your mongodb connection string) OR you can use my connection string. i.e. URI = mongodb+srv://hanzalamansuri11:hanzala@cluster0.izrji.mongodb.net/bookstore123 
+     PORT=1000
+     ```
 
 3. **Setup Frontend**
-   - cd frontend
-   - npm install
-    - In the `frontend` folder, start the frontend server:
-    - npm run dev
+   ```bash
+   cd ../frontend
+   npm install
+   ```
 
 4. **Run the Application**
-   - In the `backend` folder, start the backend server in another terminal:
-    - cd backend
-    - node app.js
-
+   - In the `backend` folder, start the backend server:
+     ```bash
+     node app.js
+     ```
+   - In the `frontend` folder, start the frontend server:
+     ```bash
+     npm run dev
+     ```
 
 5. **Access the App**
    - Frontend: [http://localhost:5173](http://localhost:5173)
-   - Backend: [http://localhost:1000](http://localhost:5000)
+   - Backend: [http://localhost:1000](http://localhost:1000)
 
 ---
 
@@ -91,6 +98,7 @@
 
 ## Project Structure
 
+```
 BookReview/
 ├── backend/
 │   ├── models/            # Mongoose models for the database
@@ -109,6 +117,7 @@ BookReview/
 │   │   └── main.js        # Main entry point
 │   └── vite.config.js     # Vite configuration for PWA
 └── README.md
+```
 
 ---
 
@@ -139,6 +148,6 @@ This project is licensed under the MIT License.
 
 ---
 
-Feel free to reach out to hanzalamansuri11@gmail.com, if you have questions or feedback. Happy coding!
+Feel free to reach out if you have questions or feedback. Happy coding!
 
 ---
